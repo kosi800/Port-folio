@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio - Semantic HTML Only">
+    <meta name="author" content="Your Name">
+    <title>Your Name - Personal Portfolio</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header id="top">
+        <p><strong>Okafor kosi</strong></p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#workspace">Workspace</a></li>
+                <li><a href="#notes">Notes</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <!-- Main Content Section -->
+    <main>
+
+        <!-- Hero Section -->
+        <section id="hero">
+            <h1>Hi, I'm Okafor kosi. I'm learning to build for the web.</h1>
+            <p>100L Civil Engineering student at UNIZIK, currently 5 days into the IEEE Web Development Holiday Challenge. This page is the project I'm building as I go.</p>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>A bit about me</h2>
+            <p>I'm new to web development, and this portfolio is my first real project, built one topic at a time across the challenge. Every section here maps to something I learned that week.</p>
+            <p>Outside of code, I'm active with the IEEE student branch and I like figuring out how things are put together, on screen and off.</p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>What I'm learning</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Git & GitHub</li>
+                <li>Responsive Design</li>
+                <li>Accessibility</li>
+            </ul>
+
+            <article id="notes">
+                <ul>
+                    <li>
+                        <a href="#">My notes on writing semantic HTML</a><br>
+                        <span>Why header, main and footer beat a page full of divs.</span>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="#">A beginner's guide to alt text</a><br>
+                        <span>What I learned about images and screen readers this week.</span>
+                    </li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- Workspace / Image Section -->
+        <section id="workspace">
+            <h2>Where this is being built</h2>
+            <figure>
+                <!-- Image width and height set to 450 as required -->
+                <img https://innovate.ieee.org/wp-content/uploads/2024/06/JCR_Headerwtext_2026.png
+="https://via.placeholder.com/450" alt="My workspace setup showing a laptop and notebook" width="450" height="450">
+                <figcaption>Every image on this site, including this one, has real alt text describing what it shows, not just a filename. It's a small habit that makes the whole page usable for a lot more people.</figcaption>
+            </figure>
+        </section>
+
+        <!-- Devlog Section -->
+        <section id="devlog">
+            <h2>Latest devlog</h2>
+            <p><em>Day 01 - Web Dev Holiday Challenge</em></p>
+            
+            <h3>Why I'm learning to build for the web</h3>
+            
+            <h4>Starting from structure</h4>
+            <p>Today was semantic HTML. No styling at all yet. It felt strange writing a page with zero color, but it forced me to think about what each part of a page actually is before worrying about how it looks.</p>
+            
+            <h4>What's next</h4>
+            <p>CSS comes next week, so this whole page is about to look a lot more like itself.</p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Say hello</h2>
+            <p>Every field here has a real label, and the email field uses the right input type. Small details, but they're what make a form usable.</p>
+
+            <form action="#" method="post">
+                <p>
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+                </p>
+
+                <p>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                </p>
+
+                <p>
+                    <label for="message">Message</label><br>
+                    <input type="text" id="message" name="message" placeholder="Say something..." required>
+                </p>
+
+                <p>
+                    <button type="submit">Send message</button>
+                </p>
+            </form>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- Footer Section -->
+    <footer>
+        <p><strong>Okafor kosi</strong></p>
+        <ul>
+            <li><a href="https://github.com" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="#top">Back to top</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
