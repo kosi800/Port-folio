@@ -1,1 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Okafor kosi - Portfolio</title>
+  <!-- This links your CSS file to style your page -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <header>
+    <div class="logo">Okaof kosi</div>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#workspace">Workspace</a></li>
+        <li><a href="#notes">Notes</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero">
+      <h1>Hi, I'm Okafor kosi.<br>I'm learning how to build a website.</h1>
+      <p>Civil Engineering student at UNIZIK, currently 5 days into the IEEE Web Development Holiday Challenge. This page is the project I'm building as I go.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>A bit about me</h2>
+      <p>I'm new to web development, and this portfolio is my first real project, built one topic at a time across the challenge. Every section here maps to something I learned that week[span_2](start_span)[span_2](end_span).</p>
+      <p>Outside of code, I'm active with the IEEE student branch and I like figuring out how things are put together, on screen and off.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>What I'm learning</h2>
+      <ul class="skills-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Git & GitHub</li>
+        <li>Responsive Design</li>
+        <li>Accessibility</li>
+      </ul>
+    </section>
+
+    <!-- Notes Section -->
+    <section id="notes">
+      <h2>Notes</h2>
+      <div class="card-grid">
+        <article class="card">
+          <h3>My notes on writing semantic HTML</h3>
+          <p>Why header, main and footer beat a page full of divs.</p>
+        </article>
+        <article class="card">
+          <h3>A beginner's guide to alt text</h3>
+          <p>What I learned about images and screen readers this week.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Workspace / Image Section -->
+    <section id="workspace">
+      <h2>Where this is being built</h2>
+      <div class="image-placeholder">
+        <img src="path/to/your-image.jpg" alt="A descriptive alt text detailing the workspace image">
+      </div>
+      <p>Every image on this site, including this one, has real alt text describing what it shows, not just a filename. It's a small habit that makes the whole page usable for a lot more people.</p>
+    </section>
+
+    <!-- Devlog Section -->
+    <section id="devlog">
+      <h2>Latest devlog</h2>
+      <article class="devlog-card">
+        <span class="meta">Day 01 - Web Dev Holiday Challenge</span>
+        <h3>Why I'm learning to build for the web</h3>
+        <h4>Starting from structure</h4>
+        <p>Today was semantic HTML. No styling at all yet. It felt strange writing a page with zero color, but it forced me to think about what each part of a page is.</p>
+        <h4>What's next</h4>
+        <p>CSS comes next week, so this whole page is about to look a lot more like itself.</p>
+      </article>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Say hello</h2>
+      <form action="#" method="POST">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Say something..." required></textarea>
+        </div>
+        <button type="submit">Send message</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <span>Okafor kosi</span>
+    <nav>
+      <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="#top">Back to top</a>
+    </nav>
+  </footer>
+
+</body>
+</html>
 
